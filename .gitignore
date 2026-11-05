@@ -1,0 +1,20 @@
+# Data. IEEE-CIS is Kaggle competition data: it can't be redistributed and is far too big for
+# GitHub. Download it yourself (see README), then the pipeline regenerates everything below.
+*.csv
+*.zip
+graph_clusters.json
+xgb_velocity_model.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets and local files
+.env
+kaggle.json
+scratch/
+*.code-workspace
+.DS_Store
